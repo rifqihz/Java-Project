@@ -18,7 +18,7 @@ public class Board {
     }
     
     public int runDice(){
-        Random randnum = new Random((12-1) + 1);
+        Random randnum = new Random((12-1) + 1) + 1;
         int out = randnum.nextInt();
         return out;
     }
