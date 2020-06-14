@@ -42,12 +42,12 @@ Movement (50 moves) : 9 20 27 33 37 44 46 52 60 71 79 85 94 96 97 96 95 95 98 99
 
 # Rock Scissor Paper Game
 ### Java  
-I use **Java 1.8.0_241**
-library : 
-    - java.time.Instant
-    - java.time.ChronoUnit
-    - java.util.Scanner
-    - java.util.Random
+I use **Java 1.8.0_241**  
+library :  
+- java.time.Instant
+- java.time.ChronoUnit
+- java.util.Scanner
+- java.util.Random
 ### Input
 1. Input the number of player (max 2)
 1. For n player input player's name (one by one)
