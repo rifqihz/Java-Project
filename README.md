@@ -5,8 +5,9 @@ Title | Description
 ----- | -----------
 [Simple Snake and Ladders](https://github.com/zhafrant/Java-Project/tree/master/Simple%20snake%20and%20ladder) | A simple Snake and Ladders (maybe it's more likely a dice game)
 [Rock Scissor Paper Game](https://github.com/zhafrant/Java-Project/tree/master/Rock%20Scissor%20Paper%20Game) | Just like a usual rock scissor and paper game
+[Character Counting](https://github.com/zhafrant/Java-Project/tree/master/Character%20Counting) | Analyze the input and return text statistic
 
-# Simple Snake and Ladders
+# [Simple Snake and Ladders](https://github.com/zhafrant/Java-Project/tree/master/Simple%20snake%20and%20ladder)
 ### Java
 I used **java 1.8.0_241**
 Library : 
@@ -40,7 +41,7 @@ Movement (50 moves) : 9 20 27 33 37 44 46 52 60 71 79 85 94 96 97 96 95 95 98 99
 ```
 
 
-# Rock Scissor Paper Game
+# [Rock Scissor Paper Game](https://github.com/zhafrant/Java-Project/tree/master/Rock%20Scissor%20Paper%20Game)
 ### Java  
 I use **Java 1.8.0_241**  
 library :  
@@ -127,3 +128,43 @@ Lose	: 2
 Draw	: 4
 ```
 
+# [Character Counting](https://github.com/zhafrant/Java-Project/tree/master/Character%20Counting)
+### Java
+I use **Java 1.8.0_241**  
+library :  
+- java.util.Scanner
+### Input
+Input yourtext to analyze
+### Output
+Example : (input) **Hello ! welcome to my github**
+```
+Input your text : Hello ! welcome to my github
+
+===== STATISTIC =====
+Total alphabet : 28
+Total words    : 5
+Total sentence : 1
+
+== Alphabet ==
+Total Alphabet : 22
+H : 1 (3,57%) 
+b : 1 (3,57%) 
+c : 1 (3,57%) 
+e : 3 (10,71%) 
+g : 1 (3,57%) 
+h : 1 (3,57%) 
+i : 1 (3,57%) 
+l : 3 (10,71%) 
+m : 2 (7,14%) 
+o : 3 (10,71%) 
+t : 2 (7,14%) 
+u : 1 (3,57%) 
+w : 1 (3,57%) 
+y : 1 (3,57%) 
+== Number ==
+Total Number : 0
+== Symbol ==
+Total Symbol : 6
+space : 5 (17,86%) 
+! : 1 (3,57%
+```
