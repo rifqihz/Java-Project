@@ -166,5 +166,5 @@ Total Number : 0
 == Symbol ==
 Total Symbol : 6
 space : 5 (17,86%) 
-! : 1 (3,57%
+! : 1 (3,57%)
 ```
