@@ -6,6 +6,7 @@ Title | Description
 [Simple Snake and Ladders](https://github.com/zhafrant/Java-Project/tree/master/Simple%20snake%20and%20ladder) | A simple Snake and Ladders (maybe it's more likely a dice game)
 [Rock Scissor Paper Game](https://github.com/zhafrant/Java-Project/tree/master/Rock%20Scissor%20Paper%20Game) | Just like a usual rock scissor and paper game
 [Character Counting](https://github.com/zhafrant/Java-Project/tree/master/Character%20Counting) | Analyze the input and return text statistic
+[Morse Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Morse%20Code%20Translator) | Morse code Decoder and Encoder
 
 # [Simple Snake and Ladders](https://github.com/zhafrant/Java-Project/tree/master/Simple%20snake%20and%20ladder)
 ### Java
@@ -167,4 +168,35 @@ Total Number : 0
 Total Symbol : 6
 space : 5 (17,86%) 
 ! : 1 (3,57%)
+```
+# [Morse Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Morse%20Code%20Translator)
+### Input 
+- First input is your username
+- Second input is your choice (1 for encode or 0 for decode)
+- Your Morse / plain text (only support alphabet and number)
+### Output
+```
+(ENCODE)
+=== MORSE CODE TRANSLATOR ===
+Input your username : zhafrant
+|| Choice || 
+1. Encode
+2. Decode
+Hello zhafrant, please input your choice : 1
+Input your text : Morse dudeeee
+=== Result ===
+Your text  : MORSE DUDEEEE
+Morse Code : -- --- .-. ... .  -.. ..- -.. . . . .
+
+(DECODE)
+=== MORSE CODE TRANSLATOR ===
+Input your username : zhafrant
+|| Choice || 
+1. Encode
+2. Decode
+Hello zhafrant, please input your choice : 2
+Input your morse code : -- --- .-. ... .  -.. ..- -.. . . . .
+=== Result ===
+Your morse code : -- --- .-. ... .  -.. ..- -.. . . . .
+Plain text      : M O R S E D U D E E E E
 ```
