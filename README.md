@@ -1,4 +1,4 @@
-# Java-Project
+# Java-Project :computer:
 This is my spare time Java Project. I'm trying to create a simple but useful program such as a simple game like snake and ladders and etc and It's a **CLI Program**.
 #### Table of Content :
 Title | Description
@@ -7,8 +7,9 @@ Title | Description
 [Rock Scissor Paper Game](https://github.com/zhafrant/Java-Project/tree/master/Rock%20Scissor%20Paper%20Game) | Just like a usual rock scissor and paper game
 [Character Counting](https://github.com/zhafrant/Java-Project/tree/master/Character%20Counting) | Analyze the input and return text statistic
 [Morse Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Morse%20Code%20Translator) | Morse code Decoder and Encoder
+[Caesar Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Caesar%20Code%20Translator) | Caesar code Decoder and Encoder
 
-# [Simple Snake and Ladders](https://github.com/zhafrant/Java-Project/tree/master/Simple%20snake%20and%20ladder)
+# [Simple Snake and Ladders](https://github.com/zhafrant/Java-Project/tree/master/Simple%20snake%20and%20ladder) :snake:
 ### Java
 I used **java 1.8.0_241**
 Library : 
@@ -42,7 +43,7 @@ Movement (50 moves) : 9 20 27 33 37 44 46 52 60 71 79 85 94 96 97 96 95 95 98 99
 ```
 
 
-# [Rock Scissor Paper Game](https://github.com/zhafrant/Java-Project/tree/master/Rock%20Scissor%20Paper%20Game)
+# [Rock Scissor Paper Game](https://github.com/zhafrant/Java-Project/tree/master/Rock%20Scissor%20Paper%20Game) :mount_fuji: :scissors: :page_facing_up:
 ### Java  
 I use **Java 1.8.0_241**  
 library :  
@@ -129,7 +130,7 @@ Lose	: 2
 Draw	: 4
 ```
 
-# [Character Counting](https://github.com/zhafrant/Java-Project/tree/master/Character%20Counting)
+# [Character Counting](https://github.com/zhafrant/Java-Project/tree/master/Character%20Counting) :capital_abcd:
 ### Java
 I use **Java 1.8.0_241**  
 library :  
@@ -169,7 +170,7 @@ Total Symbol : 6
 space : 5 (17,86%) 
 ! : 1 (3,57%)
 ```
-# [Morse Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Morse%20Code%20Translator)
+# [Morse Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Morse%20Code%20Translator) :symbols:
 ### Input 
 - First input is your username
 - Second input is your choice (1 for encode or 0 for decode)
@@ -200,3 +201,86 @@ Input your morse code : -- --- .-. ... .  -.. ..- -.. . . . .
 Your morse code : -- --- .-. ... .  -.. ..- -.. . . . .
 Plain text      : M O R S E D U D E E E E
 ```
+# [Caesar Code Translator](https://github.com/zhafrant/Java-Project/tree/master/Caesar%20Code%20Translator) :closed_lock_with_key:
+### Input 
+- Username (String)
+- User Translate Choice (1 : encode | 2 : decode)
+- User Key Choice (1 : use default key | 2 : user's key)  
+   - if (1) : no input necessary
+   - if (2) : input user's key (**String**)
+- **Translate Choice** breakdown :
+   - if (1) :
+      - input user plain text (**String**)
+      - input user specific shift number (**Int**)
+   - if (2) :
+      - input user plain text (**String**)
+      - input user decode option (Y : Decode all possibilities | N : Decode specific shift number) (**String**)
+         - if (Y) : no input necessary
+         - if (N) : input user specific shift number (**Int**)        
+ ### Output
+ ```
+ (Encode)
+ Created by Rifqihz
+
+=== CAESAR TRANSLATOR ===
+Input your username : r
+|| Choice || 
+1. Encode
+2. Decode
+Hello r, please input your choice : 1
+Our default key is : ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Do you want to use default key ?[Y|N] : y
+Input your plain text  : last project
+Please input shift number, it's between 1 and 26
+Shift : 7
+=== Result ===
+Your plain text  : LAST PROJECT
+Your cipher text : SHZA WYVQLJA
+
+(Decode)
+Created by Rifqihz
+
+=== CAESAR TRANSLATOR ===
+Input your username : r
+|| Choice || 
+1. Encode
+2. Decode
+Hello r, please input your choice : 2
+Our default key is : ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Do you want to use default key ?[Y|N] : y
+Input your caesar text : SHZA WYVQLJA
+Do you want to decode all possibilities?[Y|N] : y
+=== Result ===
+Your cipher text : SHZA WYVQLJA
+Your plain text : 
+Shift : 0 -> SHZA WYVQLJA
+Shift : 1 -> RGYZ VXUPKIZ
+Shift : 2 -> QFXY UWTOJHY
+Shift : 3 -> PEWX TVSNIGX
+Shift : 4 -> ODVW SURMHFW
+Shift : 5 -> NCUV RTQLGEV
+Shift : 6 -> MBTU QSPKFDU
+Shift : 7 -> LAST PROJECT 
+Shift : 8 -> KZRS OQNIDBS
+Shift : 9 -> JYQR NPMHCAR
+Shift : 10 -> IXPQ MOLGBZQ
+Shift : 11 -> HWOP LNKFAYP
+Shift : 12 -> GVNO KMJEZXO
+Shift : 13 -> FUMN JLIDYWN
+Shift : 14 -> ETLM IKHCXVM
+Shift : 15 -> DSKL HJGBWUL
+Shift : 16 -> CRJK GIFAVTK
+Shift : 17 -> BQIJ FHEZUSJ
+Shift : 18 -> APHI EGDYTRI
+Shift : 19 -> ZOGH DFCXSQH
+Shift : 20 -> YNFG CEBWRPG
+Shift : 21 -> XMEF BDAVQOF
+Shift : 22 -> WLDE ACZUPNE
+Shift : 23 -> VKCD ZBYTOMD
+Shift : 24 -> UJBC YAXSNLC
+Shift : 25 -> TIAB XZWRMKB     
+(Look at shift 7)
+```
+# Thank You :innocent:
+That's all, i will go off for a while... Thank you for all. If you like my program you can click the star button :star:   
+# Bye :wave:
