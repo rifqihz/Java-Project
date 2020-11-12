@@ -282,5 +282,3 @@ Shift : 25 -> TIAB XZWRMKB
 (Look at shift 7)
 ```
 # Thank You :innocent:
-That's all, i will go off for a while... Thank you for all. If you like my program you can click the star button :star:   
-# Bye :wave:
